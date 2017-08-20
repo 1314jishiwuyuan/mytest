@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.itcast</groupId>
+  <artifactId>day83-springboot01</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+  
+  <!-- 配置父工程 -->
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-starter-parent</artifactId>
+  	<version>1.5.6.RELEASE</version>
+  </parent>
+  
+  
+  <!-- 定义全局属性 -->
+  <properties>
+  <!-- 更改java环境的版本 -->
+  		<java.version>1.7</java.version>
+  </properties>
+  
+  
+  
+  
+  <!-- 配置依赖关系 -->
+  <dependencies>
+  	<dependency>
+  		<!-- 配置WEB启动器 SpringMVC、Restful、jackson -->
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-starter-web</artifactId>
+  	</dependency>
+  	
+  	<!-- 配置热启动，不需要手动重启Application类 -->
+  	<dependency>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-devtools</artifactId>
+  	</dependency>
+  </dependencies>
+  
+  
+  
+  
+  
+  
+</project>
